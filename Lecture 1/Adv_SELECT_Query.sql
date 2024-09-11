@@ -6,3 +6,8 @@ SELECT * FROM products;
 /*Que 2.Write a query to get City name.City should not be repeated */
 SELECT distinct City
 FROM customers;
+
+/*Que 3. Write q query  to get unique category and subcategory from product tables*/
+SELECT distinct subcategory,category
+FROM products;
+
